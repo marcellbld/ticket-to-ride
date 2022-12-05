@@ -29,7 +29,7 @@ function App() {
 
   useEffect(() => {
     //  dispatch(wsConnect("http://webprogramozas.inf.elte.hu:3031"));
-    dispatch(wsConnect(process.env.BACKEND_SERVER || "http://localhost:3031"));
+    dispatch(wsConnect(process.env.REACT_APP_BACKEND_SERVER || "http://localhost:3031"));
   }, [dispatch]);
 
   return (
