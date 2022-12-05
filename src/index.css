@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Rubik";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #3a3a3a;
+  color: #fcf4eb;
+}
+html,
+body,
+#app,
+#app > div,
+#root {
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card {
+  border: 1px solid rgb(32, 25, 20);
+  background-color: #000000;
+}
+
+.card.active {
+  border: 1px solid #e6af9d;
+  background-color: rgb(32, 25, 20);
+}
+
+.card-login {
+  padding: 1rem;
+  width: 30rem;
+}
+
+.card-header {
+  color: #fcf4eb;
+  font-size: 20px;
+  margin-top: 10px;
+  border-bottom: 0;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #ff0000;
+  color: #fff;
+  border: 0 !important;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.login_btn {
+  width: 130px;
+}
+
+.login_btn:hover {
+  color: #fff;
+  background-color: #ff0000;
+}
+
+.btn-outline-danger {
+  color: #fff;
+  font-size: 18px;
+  background-color: #28a745;
+  background-image: none;
+  border-color: #28a745;
+}
+
+.button-orange {
+  transition: all 0.5s;
+  background-color: #964b04;
+  border: 1px solid #e6af9d;
+  color: white;
+}
+
+.button-orange:hover {
+  color: rgb(190, 190, 190);
+  background-color: #b35702;
+  box-shadow: 0 1px 1px lightgray inset, 0 0 8px lightgray !important;
+}
+
+.button-silver {
+  transition: all 0.5s;
+  background-color: #686868;
+  border: 1px solid #fafafa;
+  color: rgb(255, 255, 255);
+}
+.button-silver:hover {
+  color: rgb(230, 230, 230);
+  background-color: #a5a5a5;
+  box-shadow: 0 1px 1px lightgray inset, 0 0 8px lightgray !important;
+}
+
+.button-orange:disabled {
+  color: gray;
+  background-color: #442a12;
+  border: 1px solid #5c5c5c;
+}
+
+.input-orange {
+  border: 1px solid#e6af9d;
+  background: #fffbf7;
+}
+.custom-select {
+  border: 1px solid#e6af9d;
+}
+
+.input-orange:focus,
+.custom-select:focus {
+  border: 2px solid#e6af9d;
+  background: #fffbf7;
+  box-shadow: 0 1px 1px lightgray inset, 0 0 8px lightgray !important;
+}
+
+.text-orange {
+  color: #d66b24;
+}
+
+/* loading animation */
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Game */
+.game-card {
+  width: 10rem;
+  height: 5rem;
+}
+.player-card {
+  width: 7rem;
+  height: 3.5rem;
+}
+
+.side-bar {
+  width: 12%;
+}
+
+.bottom-bar {
+  height: 15%;
+}
+
+.ticket-card {
+  width: 10rem;
+  height: 5rem;
+
+  border: 1px solid #fcf4eb;
+  background-color: rgb(155, 155, 155);
+  color: #2c2c2c;
+
+  box-shadow: 0 0.1rem 0.5rem 0 rgba(230, 230, 230, 0.589);
+}
+.ticket-card.completed {
+  border: 1px solid greenyellow;
+  background-color: greenyellow;
+  box-shadow: 0 0.1rem 0.5rem 0 greenyellow;
+}
+
+.map-img {
+  height: 100%;
+  width: 100%;
+}
+
+.dot {
+  height: 1.2rem;
+  width: 1.2rem;
+  box-shadow: 0rem 0rem 0.5rem rgb(255, 255, 255);
+  background-color: #2e2e2e;
+  border-radius: 50%;
+}
+.btn:focus {
+  box-shadow: none;
+}
