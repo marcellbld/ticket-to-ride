@@ -8,5 +8,4 @@ Backend is given from the exercise. [GitHub Repo](https://github.com/horvathgyoz
 
 ## Demo
 [Try the app](https://mb-ticket-to-ride.herokuapp.com)
-> :warning:
-> You may wait a few seconds because of Heroku
+> :warning: Please be aware that this demo is hosted on a low performance service - delays and interruptions may occur.
