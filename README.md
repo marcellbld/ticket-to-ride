@@ -7,5 +7,5 @@ This application is a multiplayer implementation of the Ticket to Ride game in R
 Backend is provided in the exercise. [GitHub Repo](https://github.com/horvathgyozo/websocket-sync-server)
 
 ## Demo
-[Try the app](https://mb-ticket-to-ride.herokuapp.com)
+Not available right now.
 > :warning: Please be aware that this demo is hosted on a low performance service - delays and interruptions may occur.
